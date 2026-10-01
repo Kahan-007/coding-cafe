@@ -13,3 +13,15 @@
 7. Git printed the branch name, short commit hash, commit message, and summary showing 2 files changed.
 
 8. The first seven characters are the short commit hash (abbreviated SHA-1 ID). They uniquely identify that specific commit so you can inspect or return to it later.
+
+9. The four steps of the Git loop are: edit files in the working directory, check status with git status, stage changes with git add, and commit a snapshot with git commit.
+
+10. README.md gets a special name and root placement because it serves as the front-page overview and guide for the entire repository rather than notes for a single lab.
+
+11. gh auth login generates an authentication token via the browser and stores it in the credential helper so Git authenticates automatically without asking for a password on every push.
+
+12. README.md is shown on the front page because GitHub automatically detects a root README.md file and renders its Markdown into formatted text for visitors.
+
+13. Running git push did not change my local commit history in git log --oneline at all; it simply copied my local commits to the remote repository on GitHub.
+
+14. A repository that does not exist on GitHub lives only on my laptop with no cloud backup or sharing. A private repository on GitHub backs up the history online and lets me grant access only to specific collaborators like my TAs.
