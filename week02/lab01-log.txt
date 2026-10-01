@@ -1,0 +1,87 @@
+    1  ```powershell
+    2  pwd
+    3  ls
+    4  ls -Force
+    5  ```
+    6  powershell
+    7  pwd
+    8  ls
+    9  ls -Force
+   10  pwd
+   11  ls
+   12  ls -force
+   13  ni NOTES.md
+   14  ni README.md
+   15  powershell
+   16  touch readme.md
+   17  cd ~
+   18  mkdir coding-cafe
+   19  cd coding-cafe
+   20  mkdir week01
+   21  mkdir week02
+   22  ni week02\notes.md
+   23  touch week02\notes.md
+   24  touch README.md
+   25  cd ~
+   26  ls coding-cafe\week02
+   27  ls coding-cafe
+   28  cd ~\coding-cafe
+   29  cd coding-cafe
+   30  cd ~\coding-cafe
+   31  cp README.md README-backup.md
+   32  cd week01
+   33  mv README-backup.md old-readme.md
+   34  cd ..
+   35  ls
+   36  mv README-backup.md old-readme.md
+   37  cd ~
+   38  rm -rf coding-cafe
+   39  pwd
+   40  ls
+   41  ls -al
+   42  cd ~
+   43  mkdir coding-cafe
+   44  cd coding-cafe
+   45  mkdir week01
+   46  mkdir week02
+   47  touch week02/notes.md
+   48  touch README.me
+   49  cd ~
+   50  ls coding-cafe/week02
+   51  cd ~/coding-cafe
+   52  cp README.md README-backup.md
+   53  mv README.me README.md
+   54  cd ~/coding-cafe
+   55  cp README.md README-backup.md
+   56  mv README-backup.md old-rreadme.md
+   57  mv README-backup.md old-readme.md
+   58  rm old --rreadme.md
+   59  rm old-rreadme.md
+   60  cp README.md README-backup.md
+   61  mv README-backup.md week01/
+   62  cd week01
+   63  mv README-backup.md old-readme.md
+   64  ls
+   65  rm old-readme.md
+   66  echo $PATH | tr ':' '\n'
+   67  which python3
+   68  which pip3
+   69  pyton
+   70  cd ~/coding-cafe
+   71  python3 -m venv .venv
+   72  sudo apt install python3.14-venv
+   73  sudo apt update
+   74  sudo apt install python3-venv
+   75  rm -rf .venv
+   76  python3 -m venv .venv
+   77  source .venv/bin/activate
+   78  which python
+   79  pip install requests
+   80  pip list
+   81  deactivate
+   82  man ls
+   83  man man
+   84  history
+   85  python3
+   86  nano ~/coding-cafe/week02/notes.md
+   87  history > ~/coding-cafe/week02/lab01-log.txt
